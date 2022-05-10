@@ -74,7 +74,15 @@ p, a {
     font-family: "Carmen Sans Thin", Arial, Helvetica, sans-serif;
     font-size: .9em;
     letter-spacing: .05em;
-    text-decoration: underline;
+    /* text-decoration: underline; */
+}
+
+.link {
+    border-bottom: 1px solid #000;
+}
+
+.link:hover {
+    border-bottom: 2px solid #000;
 }
 
 .model-img-config {
@@ -106,7 +114,7 @@ p, a {
 }
 
 .title-wrapper a {
-    text-decoration: underline;
+    /* text-decoration: underline; */
     color: #000;
 }
 
