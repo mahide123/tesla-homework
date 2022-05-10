@@ -1,0 +1,114 @@
+@font-face {
+    font-family: "Carmen Sans SemiBold";
+    src: url('fonts/Carmen\ Sans\ SemiBold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: "Tesla";
+    src: url('fonts/tesla.woff2') format('woff2'),
+    url('fonts/tesla.woff') format('woff');
+}
+
+@font-face {
+    font-family: "Carmen Sans Thin";
+    src: url('fonts/Carmen\ Sans\ Light.woff2') format('woff2');
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    font-family: "Carmen Sans SemiBold", Arial, Helvetica, sans-serif;
+    color: #000;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav ul li a{
+    color: #000;
+}
+
+p, a {
+    letter-spacing: 0.0025em;
+    word-spacing: 0.0015em;
+}
+
+#background-img *{
+    padding: 1;
+    margin: 1;
+}
+
+#logo {
+    font-size: 1.3em;
+    letter-spacing: 0.45em;
+    text-align: center;
+    font-family: "Tesla", Arial, Helvetica, sans-serif;
+    color: #000;
+    /* border: 1px solid red; */
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    /* border: 1px solid red; */
+}
+
+.notif {
+    padding: 15px;
+    text-align: center;
+}
+
+.notif a {
+    font-family: "Carmen Sans Thin", Arial, Helvetica, sans-serif;
+    font-size: .9em;
+    letter-spacing: .05em;
+    text-decoration: underline;
+}
+
+
+.model-img {
+    position: relative;
+    width: 100%;
+    z-index: -5;
+}
+
+.title-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 50;
+}
+
+#model-3 .model-content {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border: 1px solid red;
+}
+
+#model-y .model-content {
+    position: absolute;
+    top: 175%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border: 1px solid red;
+}
