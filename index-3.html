@@ -8,32 +8,32 @@
         <meta property="og:title" content="Tesla Homework">
         <meta property="og:image" content="#">
         <meta property="og:description" content="Unofficial Tesla web page, for educational purposes only.">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
         <link rel="stylesheet" href="style-3.css">
     </head>
     <body>
         <header>
-            <div class="white notif">
+            <div class="notif">
                 <a href="https://www.tesla.com/impact" class="black-text link">Read Tesla's 2021 Impact Report</a>
             </div>
-            <nav class="row transparent z-depth-0">
-                    <a class="col l2 black-text center" id="logo" href="#">TESLA</a>
-                    <ul class="col l8 nav-flex-content">
-                        <li><a>Model S</a></li> 
-                        <li><a>Model 3</a></li>
-                        <li><a>Model X</a></li>
-                        <li><a>Model Y</a></li>
-                        <li><a>Solar Roof</a></li>
-                        <li><a>Solar Panels</a></li>
-                    </ul>
-                    <ul class="col l2 nav-flex-content">
-                        <li><a href="https://shop.tesla.com/">Shop</a></li>
-                        <li><a href="https://www.tesla.com/teslaaccount">Account</a></li>
-                        <li><a href="#">Menu</a></li>
-                    </ul>
+            <nav class="navbar">
+                    <a id="logo" href="#">TESLA</a>
+                    <div class="nav-flex-content">
+                        <a href="#">Model S</a>
+                        <a href="#">Model 3</a>
+                        <a href="#">Model X</a>
+                        <a href="#">Model Y</a>
+                        <a href="#">Solar Roof</a>
+                        <a href="#">Solar Panels</a>
+                    </div>
+                    <div class="nav-flex-content">
+                        <a href="https://shop.tesla.com/">Shop</a>
+                        <a href="https://www.tesla.com/teslaaccount">Account</a>
+                        <a href="#">Menu</a>
+                    </div>
             </nav>
         </header>
-        <div style="height: 100%">
+        <div class="main-container">
             <div id="model-3" class="model-img-config content-padding">
                 <div class="title-wrapper">
                     <h2>Model 3</h2>
@@ -41,8 +41,8 @@
                 </div>
 
                 <div class="btn-wrapper">
-                    <a class="button btn-l-color white-text hoverable" href="https://www.tesla.com/model3/design">Custom Order</a>
-                    <a class="button btn-r-color black-text hoverable" href="https://www.tesla.com/inventory/new/m3">Existing Inventory</a>
+                    <a class="button btn-l-color btn-l" href="https://www.tesla.com/model3/design"><span>Custom Order</span></a>
+                    <a class="button btn-r-color btn-r" href="https://www.tesla.com/inventory/new/m3"><span>Existing Inventory</span></a>
                 </div>
             </div>
             <div id="model-y" class="model-img-config content-padding">
@@ -52,8 +52,8 @@
                 </div>
 
                 <div class="btn-wrapper">
-                    <a class="button btn-l-color white-text hoverable" href="https://www.tesla.com/modely/design">Custom Order</a>
-                    <a class="button btn-r-color black-text hoverable" href="https://www.tesla.com/inventory/new/my">Existing Inventory</a>
+                    <a class="button btn-l-color btn-l" href="https://www.tesla.com/modely/design"><span>Custom Order</span></a>
+                    <a class="button btn-r-color btn-r" href="https://www.tesla.com/inventory/new/my"><span>Existing Inventory</span></a>
                 </div>
             </div>
             <div id="model-s" class="model-img-config content-padding">
@@ -63,8 +63,8 @@
                 </div>
 
                 <div class="btn-wrapper">
-                    <a class="button btn-l-color white-text hoverable" href="https://www.tesla.com/models/design">Custom Order</a>
-                    <a class="button btn-r-color black-text hoverable" href="https://www.tesla.com/inventory/new/ms">Existing Inventory</a>
+                    <a class="button btn-l-color btn-l" href="https://www.tesla.com/models/design"><span>Custom Order</span></a>
+                    <a class="button btn-r-color btn-r" href="https://www.tesla.com/inventory/new/ms"><span>Existing Inventory</span></a>
                 </div>
             </div>
             <div id="model-x" class="model-img-config content-padding">
@@ -74,8 +74,8 @@
                 </div>
 
                 <div class="btn-wrapper">
-                    <a class="button btn-l-color white-text hoverable" href="https://www.tesla.com/modelx/design">Custom Order</a>
-                    <a class="button btn-r-color black-text hoverable" href="https://www.tesla.com/inventory/new/mx">Existing Inventory</a>
+                    <a class="button btn-l-color btn-l" href="https://www.tesla.com/modelx/design"><span>Custom Order</span></a>
+                    <a class="button btn-r-color btn-r" href="https://www.tesla.com/inventory/new/mx"><span>Existing Inventory</span></a>
                 </div>
             </div>
             <div id="solar-panels" class="model-img-config content-padding">
@@ -85,8 +85,8 @@
                 </div>
 
                 <div class="btn-wrapper">
-                    <a class="button btn-l-color white-text hoverable" href="https://www.tesla.com/energy/design">Order Now</a>
-                    <a class="button btn-r-color black-text hoverable" href="https://www.tesla.com/solarpanels">Learn More</a>
+                    <a class="button btn-l-color btn-l" href="https://www.tesla.com/energy/design"><span>Order Now</span></a>
+                    <a class="button btn-r-color btn-r" href="https://www.tesla.com/solarpanels"><span>Learn More</span></a>
                 </div>
             </div>
             <div id="solar-roof" class="model-img-config content-padding">
@@ -96,8 +96,8 @@
                 </div>
 
                 <div class="btn-wrapper">
-                    <a class="button btn-l-color white-text hoverable" href="https://www.tesla.com/solarroof/design">Order Now</a>
-                    <a class="button btn-r-color black-text hoverable" href="https://www.tesla.com/solarroof">Learn More</a>
+                    <a class="button btn-l-color btn-l" href="https://www.tesla.com/solarroof/design"><span>Order Now</span></a>
+                    <a class="button btn-r-color btn-r" href="https://www.tesla.com/solarroof"><span>Learn More</span></a>
                 </div>
             </div>
             <div id="accessories" class="model-img-config content-padding">
@@ -106,10 +106,9 @@
                 </div>
 
                 <div class="btn-wrapper">
-                    <a class="button btn-l-color white-text hoverable" href="https://www.tesla.com/shop?tesref=true">Shop Now</a>
+                    <a class="button btn-l-color btn-l" href="https://www.tesla.com/shop?tesref=true"><span>Shop Now</span></a>
                 </div>
             </div>
         </div>
-
     </body>
 </html>
