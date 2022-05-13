@@ -44,25 +44,34 @@ p, a {
     letter-spacing: 0.45em;
     font-family: "Tesla", Arial, Helvetica, sans-serif;
     text-decoration: none;
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
 }
 
 .navbar {
     display: flex;
     justify-content: space-between;
     align-content: center;
-    padding: 15px 0px;
-    border: 1px solid blue;
+    padding: 15px 41px;
+    /* border: 1px solid blue; */
     /* width: 95%;
     margin: 0 auto; */
 }
+
+.center-bar {
+    margin-left: 130px;
+}
+
+/* .nav-flex-container {
+    display: flex;
+    gap: 370px;
+} */
 
 .nav-flex-content {
     display: flex;
     /* gap: 5px; */
     justify-content: center;
     align-items: center;
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
 }
 
 .nav-flex-content a {
@@ -81,6 +90,7 @@ p, a {
 
 .nav-flex-content a:hover {
     background-color: rgba(0, 0, 0, 0.1);
+    transition: background-color 500ms;
 }
 
 .notif {
@@ -199,6 +209,13 @@ p, a {
 }
 
 
+.solar span {
+    padding: 6px 85px;
+}
+
+.accessory span {
+    padding: 6px 92px;
+}
 
 #model-3 {
     background-image: url("images/tesla-model-3.jpg");
